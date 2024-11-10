@@ -17,6 +17,8 @@ void display() {
     glClear(GL_COLOR_BUFFER_BIT); // Clear the color buffer (background)
     glPointSize(5.0);
     glBegin(GL_LINES);
+
+    //Axis
     glColor3ub(0,255,26);
     glVertex2f(0.0f,1.0f);
     glVertex2f(0.0f,-1.0f);
@@ -25,6 +27,7 @@ void display() {
 
     glEnd();
 
+    //Red Triangle
     glBegin(GL_POLYGON);
     glColor3ub(255,0,0);
     glVertex2f(-0.8f,0.4f);
@@ -33,6 +36,7 @@ void display() {
 
     glEnd();
 
+    //Yellow Hexagon
     glBegin(GL_POLYGON);
     glColor3ub(255,230,0);
     glVertex2f(0.5f,0.7f);
@@ -45,7 +49,7 @@ void display() {
 
     glEnd();
 
-
+    //Blue Rectangle
     glBegin(GL_POLYGON);
     glColor3ub(0,0,255);
     glVertex2f(-0.3f,-0.3f);
@@ -55,6 +59,7 @@ void display() {
 
     glEnd();
 
+    //Cyan Triangle
     glBegin(GL_POLYGON);
     glColor3ub(0,200,200);
     glVertex2f(0.4f,-0.7f);
