@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1731258622 source:c:\.tanjim\varsity\6. fall 24-25\computer graphics\star_shape\main.cpp
+1731321106 source:c:\.tanjim\varsity\6. fall 24-25\computer graphics\country flags\main.cpp
 	<windows.h>
 	<GL/glut.h>
 
@@ -872,8 +872,4 @@
 
 1720559270 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\glu.h
 	<GL/gl.h>
-
-1731314444 source:c:\.tanjim\varsity\6. fall 24-25\computer graphics\lab\computer-graphics\star shapes\main.cpp
-	<windows.h>
-	<GL/glut.h>
 
