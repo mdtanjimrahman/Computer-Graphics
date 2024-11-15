@@ -82,16 +82,18 @@ void display() {
 
     glBegin(GL_POLYGON);
     glColor3ub(255,255,255);
-    glVertex2f(-0.525f, 0.4f + 0.16f);
-    glVertex2f(-0.525f + 0.08f, 0.4f + 0.05f);
-    glVertex2f(-0.525f + 0.13f, 0.4f + 0.05f);
-    glVertex2f(-0.525f + 0.05f, 0.4f - 0.02f);
-    glVertex2f(-0.525f + 0.08f, 0.4f - 0.13f);
-    glVertex2f(-0.525f, 0.4f - 0.07f);
-    glVertex2f(-0.525f - 0.08f, 0.4f - 0.13f);
-    glVertex2f(-0.525f - 0.05f, 0.4f - 0.02f);
-    glVertex2f(-0.525f - 0.13f, 0.4f + 0.05f);
+    glVertex2f(-0.555f, 0.45f);       // 10
+    glVertex2f(-0.525f, 0.56f);       // 1
+    glVertex2f(-0.490f, 0.45f);       // 2
+    glVertex2f(-0.395f, 0.45f);       // 3
+    glVertex2f(-0.475f, 0.38f);       // 4
+    glVertex2f(-0.445f, 0.27f);       // 5
+    glVertex2f(-0.525f, 0.33f);       // 6
+    glVertex2f(-0.605f, 0.27f);       // 7
+    glVertex2f(-0.575f, 0.38f);       // 8
+    glVertex2f(-0.655f, 0.45f);       // 9
     glEnd();
+
 
 
     //DENMARK
