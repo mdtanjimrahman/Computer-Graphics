@@ -28,15 +28,6 @@ void display() {
     glEnd();
 
     //SUDAN
-    glBegin(GL_LINE_STRIP);
-    glColor3ub(0,0,0);
-    glVertex2f(0.2f,0.2f);
-    glVertex2f(0.85f,0.2f);
-    glVertex2f(0.85f,0.6f);
-    glVertex2f(0.2f,0.6f);
-    glVertex2f(0.2f,0.2f);
-    glEnd();
-
     glBegin(GL_POLYGON);
     glColor3ub(0,0,0);
     glVertex2f(0.2f,0.2f);
